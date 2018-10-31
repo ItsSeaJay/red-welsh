@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2018-10-31T18:16:48.717000000</meta:creation-date><meta:generator>LibreOffice/6.1.2.1$Windows_X86_64 LibreOffice_project/65905a128db06ba48db947242809d14d3f9a93fe</meta:generator><dc:date>2018-10-31T19:21:39.199000000</dc:date><meta:editing-duration>PT46M27S</meta:editing-duration><meta:editing-cycles>12</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:cell-count="97" meta:object-count="0"/></office:meta>
+ <office:meta><meta:creation-date>2018-10-31T18:16:48.717000000</meta:creation-date><meta:generator>LibreOffice/6.1.2.1$Windows_X86_64 LibreOffice_project/65905a128db06ba48db947242809d14d3f9a93fe</meta:generator><dc:date>2018-10-31T20:24:22.401000000</dc:date><meta:editing-duration>PT1H16M50S</meta:editing-duration><meta:editing-cycles>27</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:cell-count="121" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">16414</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">15352</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">14308</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">14449</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Attributes">
        <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">2</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">23</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -335,6 +335,28 @@
    <style:map style:condition="value()&gt;0" style:apply-style-name="N134P0"/>
    <style:map style:condition="value()&lt;0" style:apply-style-name="N134P1"/>
   </number:number-style>
+  <number:number-style style:name="N135P0" style:volatile="true">
+   <number:text>○</number:text>
+  </number:number-style>
+  <number:number-style style:name="N135">
+   <number:text>⦿</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N135P0"/>
+  </number:number-style>
+  <number:number-style style:name="N136P0" style:volatile="true">
+   <number:text>⦿</number:text>
+  </number:number-style>
+  <number:number-style style:name="N136P1" style:volatile="true">
+   <number:text>⦿</number:text>
+  </number:number-style>
+  <number:number-style style:name="N136P2" style:volatile="true">
+   <number:text>〇</number:text>
+  </number:number-style>
+  <number:text-style style:name="N136">
+   <number:text>⦿</number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N136P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N136P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N136P2"/>
+  </number:text-style>
   <number:currency-style style:name="N10121P0" style:volatile="true" number:language="en" number:country="US">
    <number:currency-symbol/>
    <number:number number:decimal-places="0" loext:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
@@ -636,10 +658,22 @@
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="co1" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="22.58mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="23.78mm"/>
   </style:style>
   <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="19.95mm"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="26.23mm"/>
+  </style:style>
+  <style:style style:name="co4" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="21.87mm"/>
+  </style:style>
+  <style:style style:name="co5" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="28.68mm"/>
+  </style:style>
+  <style:style style:name="co6" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="22.58mm"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
    <style:table-row-properties style:row-height="4.52mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
@@ -651,6 +685,10 @@
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N134"/>
+  <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N136">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm"/>
+  </style:style>
   <style:style style:name="ta_extref" style:family="table">
    <style:table-properties table:display="false"/>
   </style:style>
@@ -708,25 +746,28 @@
   <office:spreadsheet>
    <table:calculation-settings table:automatic-find-labels="false" table:use-regular-expressions="false" table:use-wildcards="true"/>
    <table:table table:name="Attributes" table:style-name="ta1">
-    <table:table-column table:style-name="co1" table:number-columns-repeated="3" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co2" table:default-cell-style-name="ce2"/>
-    <table:table-column table:style-name="co1" table:number-columns-repeated="3" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce3"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce2"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>CHARACTER</text:p>
+      <text:p>Name</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Class</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Level</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -738,130 +779,146 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Alignment</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Player</text:p>
-     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
       <text:p>Strength</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
-      <text:p>Inspiration</text:p>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce2" table:formula="of:=CEILING([.C1]/4+1)" office:value-type="float" office:value="2" calcext:value-type="float">
+      <text:p>+2</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+      <text:p>Proficiency</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce2" table:formula="of:=FLOOR(([.A6]-10)/2)" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="float" office:value="13" calcext:value-type="float">
       <text:p>13</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce2" table:formula="of:=FLOOR((7+[.C1])/4)" office:value-type="float" office:value="2" calcext:value-type="float">
-      <text:p>+2</text:p>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
-      <text:p>Proficiency</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="3"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
-      <text:p>Dexterity</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="3"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce2" table:formula="of:=FLOOR(([.A9]-10)/2)" office:value-type="float" office:value="1" calcext:value-type="float">
-      <text:p>+1</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.A5]" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell table:formula="of:=IF([.C6]=0; [.$A$5]; [.$A$5]+[.$C$4])" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.A4]" office:value-type="string" office:string-value="Strength" calcext:value-type="string">
       <text:p>Strength</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="float" office:value="13" calcext:value-type="float">
-      <text:p>13</text:p>
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
+      <text:p>Dexterity</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.A8]" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.C7]=0; [.$A$8]; [.$A$8]+[.$C$4])" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.A7]" office:value-type="string" office:string-value="Dexterity" calcext:value-type="string">
       <text:p>Dexterity</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
-      <text:p>Constitution</text:p>
+     <table:table-cell table:style-name="ce2" table:formula="of:=FLOOR(([.A9]-10)/2)" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>+1</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.A11]" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.C8]=0; [.$A$11]; [.$A$11]+[.$C$4])" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.A10]" office:value-type="string" office:string-value="Constitution" calcext:value-type="string">
       <text:p>Constitution</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce2" table:formula="of:=FLOOR(([.A12]-10)/2)" office:value-type="float" office:value="1" calcext:value-type="float">
-      <text:p>+1</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.A14]" office:value-type="float" office:value="1" calcext:value-type="float">
-      <text:p>+1</text:p>
-     </table:table-cell>
-     <table:table-cell table:formula="of:=[.A13]" office:value-type="string" office:string-value="Intelligence" calcext:value-type="string">
-      <text:p>Intelligence</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="float" office:value="13" calcext:value-type="float">
       <text:p>13</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.A17]" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.C9]=0; [.$A$14]; [.$A$14]+[.$C$4])" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>+1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A13]" office:value-type="string" office:string-value="Intelligence" calcext:value-type="string">
+      <text:p>Intelligence</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
+      <text:p>Constitution</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.C10]=0; [.$A$17]; [.$A$17]+[.$C$4])" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.A16]" office:value-type="string" office:string-value="Wisdom" calcext:value-type="string">
       <text:p>Wisdom</text:p>
      </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" table:formula="of:=FLOOR(([.A12]-10)/2)" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>+1</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.C11]=0; [.$A$20]; [.$A$20]+[.$C$4])" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>+1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A19]" office:value-type="string" office:string-value="Charisma" calcext:value-type="string">
+      <text:p>Charisma</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="13" calcext:value-type="float">
+      <text:p>13</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+      <text:p>Saving Throws</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
       <text:p>Intelligence</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.A20]" office:value-type="float" office:value="1" calcext:value-type="float">
-      <text:p>+1</text:p>
-     </table:table-cell>
-     <table:table-cell table:formula="of:=[.A19]" office:value-type="string" office:string-value="Charisma" calcext:value-type="string">
-      <text:p>Charisma</text:p>
-     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
@@ -869,25 +926,9 @@
       <text:p>+1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Saving Throws</text:p>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="3"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
-      <text:p>12</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="3"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
-      <text:p>Wisdom</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:formula="of:=[.A8]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -897,13 +938,15 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Dex)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce2" table:formula="of:=FLOOR(([.A18]-10)/2)" office:value-type="float" office:value="1" calcext:value-type="float">
-      <text:p>+1</text:p>
+     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A17]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -913,13 +956,15 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Wis)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
-      <text:p>12</text:p>
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
+      <text:p>Wisdom</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A14]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -929,13 +974,15 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Int)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
-      <text:p>Charisma</text:p>
+     <table:table-cell table:style-name="ce2" table:formula="of:=FLOOR(([.A18]-10)/2)" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>+1</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A5]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -945,13 +992,15 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Str)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce2" table:formula="of:=FLOOR(([.A21]-10)/2)" office:value-type="float" office:value="1" calcext:value-type="float">
-      <text:p>+1</text:p>
+     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A20]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -961,13 +1010,15 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Cha)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
-      <text:p>12</text:p>
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
+      <text:p>Charisma</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A14]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -977,10 +1028,15 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Int)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce2" table:formula="of:=FLOOR(([.A21]-10)/2)" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>+1</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A17]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -990,10 +1046,15 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Wis)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A20]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1003,10 +1064,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Cha)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A14]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1016,10 +1079,15 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Int)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
+      <text:p>Perception</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A17]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1029,10 +1097,15 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Wis)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:formula="of:=10+[.A17]" office:value-type="float" office:value="11" calcext:value-type="float">
+      <text:p>11</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A17]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1042,10 +1115,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Wis)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A17]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1055,10 +1130,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Wis)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A20]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1068,10 +1145,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Cha)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A20]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1081,10 +1160,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Cha)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A14]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1094,10 +1175,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Int)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A8]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1107,10 +1190,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Dex)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A20]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1120,10 +1205,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Cha)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>〇</text:p>
+     </table:table-cell>
      <table:table-cell table:formula="of:=[.A8]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>+1</text:p>
      </table:table-cell>
@@ -1133,15 +1220,14 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>(Dex)</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Skills</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
    </table:table>
    <table:named-expressions/>
